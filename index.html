@@ -23,9 +23,9 @@
     }
  </style>
 </head>
-<body class="mono-font">
+<body class="mono-font sm:bg-[#F4F4F4] md:bg-[#F4F4F4]">
     <!-- header section -->
-     <header class="px-24 py-7 bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]">
+     <header class="px-4 lg:px-24 py-7 bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]">
         <!-- navbar -->
          <nav class="bg-[#FFFFFF]">
             <div class="navbar bg-base-100">
@@ -96,7 +96,7 @@
      <!-- main section -->
       <main class="bg-[#F4F4F4] mt-16 pb-9">
           <!-- first hero section  -->
-           <section class="px-28 py-7 ">
+           <section class="px-4 lg:px-28 lg:py-7  ">
                 <div class="grid sm:grid-cols-1 lg:grid-cols-2  space-x-6 ">
                   <!-- text section -->
                   <div>
@@ -146,7 +146,7 @@
                 </div>
            </section>
            <!-- hero second section -->
-            <section class="mt-16 mb-12  px-28">
+            <section class="mt-16 mb-12  lg:px-28">
               <!-- our works process -->
                <div class="text-center w-auto">
                     <div class="btn bg-[#FFFFFF] rounded-2xl text-[#494949] ">
@@ -189,7 +189,7 @@
 
       </main>
       <!-- portfolio section -->
-       <section class="mt-16 px-28">
+       <section class="lg:mt-16 lg:px-28  lg:bg-[#FFFFFF]">
         <!-- our latest portfolio -->
          <div class="text-center">
           <div class="btn bg-[#ABEF5F33] rounded-2xl text-[#494949] ">
@@ -201,40 +201,69 @@
 
          </div>
          <!-- portfolio card -->
-         <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
-
-          <div class="lg:col-span-8 lg:flex gap-x-4 m-auto p-5 border-solid border-2 rounded-xl ">
-            <!-- img -->
-             <div class="">
-              <img class="w-96 h-32" src="./assets/img1.png" alt="">
+         <div class="">
+          <div class="lg:grid grid-cols-12 gap-4" >
+           <div class="col-span-8 lg:grid grid-cols-8  border-solid border-2 rounded-xl p-3 gap-x-4" >
+             <!-- img -->
+             <div class="m-auto w-full h-full lg:col-span-4">
+              <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img1.png" alt="">
              </div>
              <!-- text -->
-              <div>
+              <div class="col-span-4"> 
                 <h1 class="text-2xl font-bold text-[#494949] mb-3">Commercial</h1>
-                <p class="text-base font-medium texr-[#737373] mb-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <p class="text-base font-medium texr-[#737373] mb-4">The barn house captivates with its blend of rustic charm and modern.The barn house captivates </p>
                 
                   <a class="  text-xl font-bold ">View Details</a><i class="fa-solid fa-arrow-right bg-[#ABEF5F] ml-3 p-1 rounded-xl -rotate-45"></i>
+                
               </div>
+           </div>
+           <!-- img -->
+           <div class="col-span-4 border-solid border-2 rounded-xl p-3">
+            <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img2.png" alt="">
+           </div>
+
           </div>
-          <div class="lg:col-span-4 m-auto border-solid border-2 p-2 rounded-xl"> <img src="./assets/img2.png" alt=""></div>
-          <div class="border-solid border-2 rounded-xl m-auto p-2 lg:col-span-3 "><img src="./assets/img3.png" alt=""></div>
-          <div class="lg:col-span-6 border-solid m-auto border-2 rounded-xl p-6" >
-            <div class="lg:flex gap-x-3 m-auto">
-              <!-- img -->
-               <div><img class="m-auto border-solid border-2 rounded-xl" src="./assets/img4.png" alt=""></div>
-               <!-- text -->
-                <div class="m-auto">
-                  <h1 class="text-2xl font-bold text-[#494949] mb-3">Commercial</h1>
-                <p class="text-base font-medium texr-[#737373] mb-4">The barn house captivates with its blend of rustic charm and modern. </p>
-                
-                  <a class="  text-xl font-bold ">View Details</a><i class="fa-solid fa-arrow-right bg-[#ABEF5F] ml-3 p-1 rounded-xl -rotate-45"></i>
+          <!-- second part -->
+          <div class="mt-5 space-x-4">
+            <div class="lg:grid grid-cols-12 gap-5">
+              <!-- 1st img -->
+               <div class="col-span-3 border-solid border-2 rounded-xl p-3 sm:w-full sm:h-full">
+                <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img3.png" alt="">
+               </div>
+               <!-- 2nd img -->
+                <div class="col-span-6 lg:grid grid-cols-6 border-solid border-2 rounded-xl gap-x-4 p-3">
+                  <!-- img -->
+                   <div class="col-span-3 p-3">
+                     <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img4.png" alt="">
+                   </div>
+                   <!-- text -->
+                    <div class="col-span-3">
+                      <h1 class="text-2xl font-bold text-[#494949] mb-3">Commercial</h1>
+                      <p class="text-base font-medium texr-[#737373] mb-4">The barn house captivates with its blend of rustic charm and modern. </p>
+                      
+                        <a class="  text-xl font-bold ">View Details</a><i class="fa-solid fa-arrow-right bg-[#ABEF5F] ml-3 p-1 rounded-xl -rotate-45"></i>
+                    </div>
+                </div>
+                <!-- 3rd img -->
+                 <div class="col-span-3 border-solid border-2 rounded-xl">
+                  <img class="p-3 sm:h-full sm:w-full sm:m-auto" src="./assets/img5.png" alt="">
                 </div>
 
-            </div>
+            </div> 
+                  
           </div>
-          <div class="border-solid border-2 rounded-xl p-2 m-auto lg:col-span-3"><img src="./assets/img5.png" alt=""></div>
+          <!-- 3rd  -->
+           <div class="sm:block lg:hidden">
+            <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img5.png" alt="">
+           </div>
+          
         </div>
+        
        </section>
+       <!-- section -->
+        <section class="mt-16">
+ 
+        </section>
       <!-- footer section -->
        <footer>
 
