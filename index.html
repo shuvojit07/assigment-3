@@ -20,7 +20,11 @@
  <style>
     .mono-font{
         font-family: "Manrope", sans-serif;
+    } 
+    .background-img{
+      background-image: url("assets/bg.jpg");
     }
+    
  </style>
 </head>
 <body class="mono-font sm:bg-[#F4F4F4] md:bg-[#F4F4F4]">
@@ -94,7 +98,7 @@
 
      </header>
      <!-- main section -->
-      <main class="bg-[#F4F4F4] mt-16 pb-9">
+      <main class="bg-[#F4F4F4] mt-16 pb-5">
           <!-- first hero section  -->
            <section class="px-4 lg:px-28 lg:py-7  ">
                 <div class="grid sm:grid-cols-1 lg:grid-cols-2  space-x-6 ">
@@ -189,9 +193,9 @@
 
       </main>
       <!-- portfolio section -->
-       <section class="lg:mt-16 lg:px-28  lg:bg-[#FFFFFF]">
+       <section class="lg:mt-16 lg:px-28 lg:py-20  lg:bg-[#FFFFFF] ">
         <!-- our latest portfolio -->
-         <div class="text-center">
+         <div class="text-center ">
           <div class="btn bg-[#ABEF5F33] rounded-2xl text-[#494949] ">
             <i class="fa-solid fa-arrow-right  p-1 rounded-xl "></i>
             <a class=" text-base ">Explore our Latest works</a></a>
@@ -206,7 +210,7 @@
            <div class="col-span-8 lg:grid grid-cols-8  border-solid border-2 rounded-xl p-3 gap-x-4" >
              <!-- img -->
              <div class="m-auto w-full h-full lg:col-span-4">
-              <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img1.png" alt="">
+              <img class="h-full w-full sm:m-auto" src="./assets/img1.png" alt="">
              </div>
              <!-- text -->
               <div class="col-span-4"> 
@@ -219,7 +223,7 @@
            </div>
            <!-- img -->
            <div class="col-span-4 border-solid border-2 rounded-xl p-3">
-            <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img2.png" alt="">
+            <img class="h-full w-full sm:m-auto" src="./assets/img2.png" alt="">
            </div>
 
           </div>
@@ -228,13 +232,13 @@
             <div class="lg:grid grid-cols-12 gap-5">
               <!-- 1st img -->
                <div class="col-span-3 border-solid border-2 rounded-xl p-3 sm:w-full sm:h-full">
-                <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img3.png" alt="">
+                <img class="h-full w-full sm:m-auto" src="./assets/img3.png" alt="">
                </div>
                <!-- 2nd img -->
                 <div class="col-span-6 lg:grid grid-cols-6 border-solid border-2 rounded-xl gap-x-4 p-3">
                   <!-- img -->
                    <div class="col-span-3 p-3">
-                     <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img4.png" alt="">
+                     <img class="h-full w-full sm:m-auto" src="./assets/img4.png" alt="">
                    </div>
                    <!-- text -->
                     <div class="col-span-3">
@@ -246,26 +250,56 @@
                 </div>
                 <!-- 3rd img -->
                  <div class="col-span-3 border-solid border-2 rounded-xl">
-                  <img class="p-3 sm:h-full sm:w-full sm:m-auto" src="./assets/img5.png" alt="">
+                  <img class="p-3 h-full w-full sm:m-auto" src="./assets/img5.png" alt="">
                 </div>
 
             </div> 
                   
           </div>
           <!-- 3rd  -->
-           <div class="sm:block lg:hidden">
-            <img class="sm:h-full sm:w-full sm:m-auto" src="./assets/img5.png" alt="">
+           <div class="sm:block lg:hidden border-solid border-2 ">
+            <img class="h-full w-full p-3 sm:m-auto" src="./assets/img5.png" alt="">
            </div>
           
         </div>
         
        </section>
-       <!-- section -->
-        <section class="mt-16">
- 
-        </section>
+       <!-- Discuss Next Project -->
+       <section class="mt-3 pb-20 background-img bg-cover">
+        <!-- text -->
+        <div class="text-center ">
+          <div class="btn bg-[#ABEF5F33] rounded-2xl text-[#494949] mt-10 lg:mt-16 ">
+            <i class="fa-solid fa-arrow-right  p-1 rounded-xl "></i>
+            <a class=" text-base  font-bold">let's Connect</a></a>
+          </div>
+          <h1 class="sm:text-4xl lg:text-6xl font-bold text-[#212121] mt-5 mb-5 ">Let’s Discuss Next Project</h1>
+          <p class="text-[#494949] text-base font-medium mt-5  w-7/12 items-center m-auto mb-5  ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+        </div>
+        <!-- input form -->
+         <div class="lg:px-20 m-auto  pb-15">
+          <div class="gap-5 grid  lg:grid-cols-2">
+             <input class=" p-3 rounded-3xl"  type="text" placeholder="First Name*">
+            <input class=" p-5 rounded-3xl"  type="text" placeholder="Last Name*">
+            <input class=" p-5 rounded-3xl"  type="text" placeholder="Phone Number*">
+          <input class=" p-5 rounded-3xl"  type="email" placeholder="Email Number*">
+          <textarea class="rounded-3xl pl-3 col-span-2" rows="8" cols="full" placeholder="write your message here"></textarea>
+          </div>
+          
+          <button class="text-2xl font-bold bg-[#ABEF5F] w-full p-2 rounded-3xl mt-5 ">Send Mail <i class="fa-solid fa-arrow-right text-white bg-black p-2 rounded-full -rotate-45"></i></a>
+          </button>
+          
+            
+          
+
+         </div>
+
+
+      </section>
       <!-- footer section -->
-       <footer>
+       <footer class="bg-[#1C1C1C]" >
+
+
 
        </footer>
     
